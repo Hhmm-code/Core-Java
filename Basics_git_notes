@@ -1,7 +1,7 @@
 A -> basics notes
     1. .git 
-	    *This file will be hidden. ->click on view menu -> click on hidden
-	    *This file is the bridge between the repositories and our local folder
+	* This file will be hidden. ->click on view menu -> click on hidden
+	* This file is the bridge between the repositories and our local folder
     2. file name 
         * file name should not have space.
         * it will allow to create a file name with space but while using  add or another comment spaced is not accepting.
@@ -11,17 +11,17 @@ A -> basics notes
 
 B -> commends
     1. to get file from git to local system
-        *git clone <line of the repositories>
-        *Ex :- git clone https://github.com/Hhmm-code/Core-Java.git
+        * git clone <line of the repositories>
+        * Ex :- git clone https://github.com/Hhmm-code/Core-Java.git
        
     2. To get inside the folder
-	    *cd <file_name>
-        *Ex :- cd Core-java
+	* cd <file_name>
+        * Ex :- cd Core-java
 
     3.To check the status of the file 
-        *Ex :- git status
-        *If a file shows like Untracked files then this file is not moved to the git.
-        *File status wull be "U"
+        * Ex :- git status
+        * If a file shows like Untracked files then this file is not moved to the git.
+        * File status wull be "U"
 
         status      Meaning
            U        File not yet uploaded.
@@ -29,10 +29,10 @@ B -> commends
            M        Modified and after Modified need to add againg , until it remains Untracked files.
 
     4. To add a file in the git 
-        *git add <filename>
-        *Ex :- git add Basics_git_notes
-        *file status will be changed as "A"
-        *Status will be Changes to be committed.
+        * git add <filename>
+        * Ex :- git add Basics_git_notes
+        * file status will be changed as "A"
+        * Status will be Changes to be committed.
     
     5.To move the file to our local git.
-        *git commit -m "read the Basics_git_notes for quick recap"
+        * git commit -m "read the Basics_git_notes for quick recap"
