@@ -1,0 +1,34 @@
+/*
+                    ARRAY
+    Syntax :-
+        
+        DataType[] arrayName = NEW DataType[size];
+        []      --> it denotes array
+*/
+public class Main
+{
+	public static void main(String[] args) {
+	   String[] playList = new String[3];               //-> is just creates array and this array (playList) can store 3 elements it it.
+	   System.out.println(playList);                    //-> output : some output may be address.
+	   System.out.println(playList[0]);                 //-->output : null
+	   //System.out.println(playList[3]);               //--> error : Index 3 out of bounds for length 3
+	   playList[0]="song1";                             //--> insert element to array
+	   System.out.println(playList[0]);                 //->output  : song1
+	   playList[1]="song2";  
+	   playList[2]="song3";  
+	   System.out.println(playList);                    //-> output : some output may be address.
+	   
+	   /* 
+	        Methods of inserting element in  array 
+	            1. playList[0]="song1"; 
+	            2. String[] playList1 = {"song 5","Song 6","Song 7"};  
+	   */
+	   
+	   String[] playList1 = {"song 5","Song 6","Song 7"};
+	   System.out.println(playList1[0]);
+	   // So how can we see entier array
+	   for (int i=0;i<3;i++){
+	       System.out.println("Array element "+i+" --> "+playList[i]);
+	   }
+	}
+}
