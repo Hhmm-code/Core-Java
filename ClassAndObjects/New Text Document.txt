@@ -1,0 +1,15 @@
+/*
+    class AND Object
+*/
+public class Hotel{
+    int a=10;
+    int b=20;
+    int c=30;
+    public static void main(String[] args){
+        Hotel h = new Hotel();
+        Hotel h1=new Hotel();
+    System.out.println(h.a);
+    System.out.println(h1.b);
+    System.out.println(h1.a);
+}
+}
