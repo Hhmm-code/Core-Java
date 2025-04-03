@@ -1,0 +1,17 @@
+import java.util.*;
+public class Main
+{
+	public static void main(String[] args) {
+		System.out.println("Hello World");
+	    Scanner scan = new Scanner(System.in);
+	    int mark=scan.nextInt();
+	    if (mark < 50){
+	        System.out.println("You need to improve");
+	    } else if (mark > 50 && mark <70){
+	        System.out.println("Good");
+	    }
+	    else{
+	        System.out.println("perfet");
+	    }
+	}
+}
