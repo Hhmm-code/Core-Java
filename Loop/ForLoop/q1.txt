@@ -1,0 +1,14 @@
+/*CC - 3 loop*/
+import java.util.*;
+public class Main
+{
+	public static void main(String[] args) {
+	    Scanner scan = new Scanner(System.in);
+	    System.out.println("starting number"+'\n'+"Ending number");
+	    int startNum = scan.nextInt();
+	    int endNum =scan.nextInt();
+	    for (int i=startNum ;i<=endNum;i++){
+	        System.out.println(i);
+	    }
+	}
+}
