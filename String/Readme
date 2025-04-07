@@ -1,0 +1,4 @@
+String is a collection of characters .
+String refer to non primitive data type or reference datatype
+Pass by Reference -  it will get the value by reference it address not my value.
+It is immutable means we can't able to modify the string
